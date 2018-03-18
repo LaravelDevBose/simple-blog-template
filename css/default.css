@@ -1,0 +1,156 @@
+.container-fluid {
+    width: 100%;
+    padding-right: 5%;
+    padding-left: 5%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.header{
+    background: #097688;
+    padding: 20px 0 10px 0;
+}
+.community{
+    margin: 0px -15px ;
+}
+.community label{
+    font-size: 14px;
+    color:#f78109;
+}
+.community .community-form{
+    background: #fff;
+}
+.community .community-form input[type="text"]{
+    width: 65%;
+    display: inline-block;
+    border-radius: 0;
+
+    border: none;
+}
+.community .community-form .comunity-btn{
+    width: 34%;
+    margin: 0 0 0 -4px;
+    font-size: 12px;
+    display: inline-block;
+    border-radius: 0px;
+    border-top: none;
+    border-right: none;
+    border-bottom: none;
+    border-left: 1px solid #097688;
+}
+.user-login{
+    margin: 0px;
+}
+.user-login .login-group{
+    margin-bottom: 5px;
+}
+.user-login .login-group input{
+    font-size: 11px;
+}
+
+.login-info{
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+    width: 100%;
+}
+.login-info a{
+    color: #fff;
+    font-size: 11px;
+    margin: 0;
+}
+.user-login .login-btn{
+    background: #0dc380;
+    color: #fff;
+    border: 0;
+    width: 100%;
+}
+.navBar{
+    background: #f1f1f3;
+}
+.menu{
+    width: 75%;
+}
+
+.menu ul{
+
+}
+.menu ul li{
+    padding-right: 30px;
+}
+.search-bar{
+    border: 1px solid #0890a7;
+    width: 25%;
+}
+.search-group{
+    width: 55px;
+    border-right: 1px solid #0890a7;
+
+}
+.search-group .search-control{
+    display: inline-block;
+    padding: 2px;
+}
+.search-group .search-control label{
+    display: inline-block;
+}
+.search-group .search-control label img{
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    width: 20px;
+    height: 20px;
+}
+
+.search-group .search-control input{
+    display: none;
+}
+.search-bar .search-field{
+    border: none;
+    background-color: #f1f1f3;
+    border-radius: 0;
+    width: 66.4485%;
+    padding:6px 5px 6px 8px;
+
+    font-size: 12px;
+}
+
+.search-bar .search-btn{
+    background:  #0bb2ce;
+    color: #ffffff;
+    border: none;
+    border-radius: 0;
+    width: 13%;
+    height: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#content{
+    background: #055d6d26;
+}
+
+#content .content-body{
+    background: #fff;
+}
