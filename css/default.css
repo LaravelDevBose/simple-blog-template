@@ -154,3 +154,196 @@
 #content .content-body{
     background: #fff;
 }
+
+
+
+.footer-top{
+    padding: 20px 15px;
+    background: #097688;
+}
+.subscribe-panel{
+    padding: 30px;
+}
+.subscribe-panel p{
+    color: #e6e2e2;
+    font-size: 30px;
+    font-weight: 900;
+}
+.subscribe-panel p:hover{
+    color: #0c0488;
+}
+.subscribe-panel .subscribe{
+    border: 1px solid #007bff;
+    background-color: #ffffff;
+    border-radius:5px;
+    padding: 0 ;
+    margin: 0;
+}
+.subscribe-panel .subscribe .subscribe-control{
+    width: 70%;
+    height: 50px;
+    display: inline-block;
+    font-size: 25px;
+    padding: 3px 10px;
+    border-radius: 0;
+    border: 0;
+}
+.subscribe-panel .subscribe .subscribe-btn{
+    width: 29.238%;
+    height: 50px;
+    display: inline-block;
+    font-size: 25px;
+    padding: 5px;
+    border-radius: 0;
+    background-color: #0dc380;
+    color: #000000;
+    border: 0;
+}
+.footer-top .pages{
+    padding: 85px 15px 30px 15px;
+}
+.pages li{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: #02bfa5;
+    padding: 4px 0 0 0;
+}
+.pages li:hover{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: #f5770b;
+    padding: 4px 0 0 0;
+    color: #02bfa5;
+}
+
+.footer{
+    background: #3a3838;
+}
+.footer .right-border{
+    border-right: 2px dotted #6610f2;
+}
+.footer .footer-magin{
+    margin: 15px 0;
+}
+.footer .footer-menu{
+    padding: 15px 30px;
+    margin: 15px 0;
+    min-height: 300px;
+}
+
+.footer-menu ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    color: #0cc8f3eb;
+}
+.footer-menu ul li{
+    padding: 5px 15px;
+}
+.footer-menu ul li a{
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 400;
+    font-style: italic;
+    color: #0cc8f3eb;
+}
+.footer-menu ul li a:hover{
+    color: #f7761beb;
+    text-shadow: #ddd;
+}
+.footer .footer-top-blog{
+    padding: 15px 0px;
+    margin: 15px 0px;
+    min-height: 300px;
+}
+.footer-top-blog ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.footer-top-blog ul li{
+    display: block;
+    max-height: 90px;
+}
+.footer-top-blog ul li a{
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: 400;
+    font-style: italic;
+    color: #0cc8f3eb;
+    margin-bottom: 5px;
+}
+.footer-top-blog .footer-blog{
+    margin-bottom: 5px;
+    padding-left: 10px;
+}
+.footer-blog a img{
+    /*max-width: 80px;*/
+    min-height: 80px;
+    border-radius: 4px;
+    max-width: 25%;
+}
+.footer-blog a p{
+    display: inline-block;
+    font-weight: 400;
+    font-size: 15px;
+    max-width: 74%;
+    margin: 0;
+    -webkit-margin-after: 0em;
+    padding-left: 10px;
+}
+.footer-blog a p label{
+    display: inline-block;
+    font-weight: 400;
+    font-size: 13px;
+    float: right;
+    position: relative;
+    top: 10px;
+    right: 0.5rem;
+    color: orangered;
+
+}
+.footer .footer-about{
+    padding: 15px 0px;
+    margin: 15px 0px;
+    min-height: 300px;
+}
+.footer-about h4{
+    color: orangered;
+}
+.footer-about p{
+    padding: 7px 15px;
+    color: #0cc8f3eb;
+    text-align: justify;
+}
+.footer-about .footer-address{
+    margin: 0px;
+    padding: 5px;
+}
+.footer-address ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.footer-address ul li{
+    margin: 0;
+    padding: 0px 15px;
+}
+
+.footer-address ul li p{
+    font-size: 15px;
+    margin: 0px;
+    color: #e08b0b;
+    font-weight: 800;
+}
+.footer-address ul li p span{
+    font-size: 13px;
+    font-style: italic;
+    font-weight: 600;
+    color: #0cc8f3eb;
+}
+.copyright{
+    background: #333131;
+}
