@@ -9,18 +9,13 @@
     <meta name="author" content="">
 
     <title>Simple Blog Theme</title>
-
-    <!-- Bootstrap core CSS -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-
-    <!-- Custom fonts for this template -->
-    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <link href='https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet'
           type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800'
           rel='stylesheet' type='text/css'>
-
-    <!-- Custom styles for this template -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="font-awesome/css/fontawesome-all.min.css" rel="stylesheet" type="text/css">
 
     <link rel="stylesheet" href="css/default.css">
 
@@ -183,157 +178,154 @@
     <div class="container content-body">
         <div class="row">
             <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                <div>
+                <div class="banner">
                     <img src="http://s3.amazonaws.com/somewherein/pictures/CongratulationsTigers2015bannerNew.jpg"
                          class="img-fluid" alt="">
                 </div>
             </div>
-            <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
-                <div class="row">
-                    <div class="col-md-12">
-                        <div class="list-group" id="list-tab" role="tablist">
-                            <a class="list-group-item list-group-item-action active" id="list-home-list"
-                               data-toggle="list" href="#list-home" role="tab" aria-controls="home">Home</a>
-                            <a class="list-group-item list-group-item-action" id="list-profile-list" data-toggle="list"
-                               href="#list-profile" role="tab" aria-controls="profile">Profile</a>
-                            <a class="list-group-item list-group-item-action" id="list-messages-list" data-toggle="list"
-                               href="#list-messages" role="tab" aria-controls="messages">Messages</a>
-                            <a class="list-group-item list-group-item-action" id="list-settings-list" data-toggle="list"
-                               href="#list-settings" role="tab" aria-controls="settings">Settings</a>
-                        </div>
-                    </div>
+            <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12 sidebar-right-border">
+                <div class="left-sidebar">
 
-                </div>
-                <div id="accordion">
-                    <div class="card">
-                        <div class="card-header" id="headingOne">
-                            <h5 class="mb-0">
-                                <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne"
-                                        aria-expanded="true" aria-controls="collapseOne">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="list-group side-menu" >
+                                <a class="list-group-item list-group-item-action " href="#" ><i class="fas fa-home"></i> প্রথম পাতা</a>
+                                <a class="list-group-item list-group-item-action" href="#" > <i class="fas fa-list"></i> সকল পোস্ট</a>
+                                <a class="list-group-item list-group-item-action"  href="#"><i class="fas fa-tasks"></i> নির্বাচিত পোস্ট</a>
+                                <a class="list-group-item list-group-item-action"  href="#" ><i class="fas fa-list-ol"></i> বিষয় ভিত্তিক ব্লগ</a>
+                                <a class="list-group-item list-group-item-action"  href="#" ><i class="far fa-clipboard"></i> নোটিশ বোর্ড</a>
+                            </div>
+                            <div class="sidebar-login">
+                                <h5 class="text-center bg-info">
                                     Account
-                                </button>
-                            </h5>
-                        </div>
+                                </h5>
+                                <div class="card-body">
+                                    <form class="sidebar-login-form">
+                                        <div class="form-row align-items-center">
+                                            <div class="col-md-12 my-1">
+                                                <div class="input-group">
+                                                    <input type="text" class="form-control"  placeholder="ইউজারনেম / ইমেইল">
+                                                </div>
+                                            </div>
+                                            <div class="col-md-12 my-1">
+                                                <div class="input-group">
+                                                    <input type="text" class="form-control"  placeholder="পাসওয়ার্ড">
+                                                </div>
+                                            </div>
+                                            <div class="col-auto my-1">
+                                                <div class="form-check">
+                                                    <input class="form-check-input" type="checkbox">
+                                                    <label class="form-check-label">
+                                                        Remember me
+                                                    </label>
+                                                </div>
+                                            </div>
+                                            <div class="col-auto my-1 pull-right">
+                                                <button type="submit" >Submit</button>
+                                            </div>
+                                        </div>
 
-                        <div id="collapseOne" class="collapse show" aria-labelledby="headingOne"
-                             data-parent="#accordion">
-                            <div class="card-body">
-                                <form>
-                                    <div class="form-row align-items-center">
-                                        <div class="col-md-12 my-1">
-                                            <div class="input-group">
-                                                <div class="input-group-prepend">
-                                                    <div class="input-group-text">@</div>
-                                                </div>
-                                                <input type="text" class="form-control" placeholder="Username">
-                                            </div>
-                                        </div>
-                                        <div class="col-md-12 my-1">
-                                            <label class="sr-only">Username</label>
-                                            <div class="input-group">
-                                                <div class="input-group-prepend">
-                                                    <div class="input-group-text">@</div>
-                                                </div>
-                                                <input type="text" class="form-control" id="" placeholder="Username">
-                                            </div>
-                                        </div>
-                                        <div class="col-auto my-1">
-                                            <div class="form-check">
-                                                <input class="form-check-input" type="checkbox">
-                                                <label class="form-check-label">
-                                                    Remember me
-                                                </label>
-                                            </div>
-                                        </div>
-                                        <div class="col-auto my-1">
-                                            <button type="submit" class="btn btn-primary">Submit</button>
-                                        </div>
+                                    </form>
+                                    <div class="sidebar-login-help ">
+                                        <p >
+                                            <a href="" class="pull-left" >পাসওয়ার্ড ভুলে গেছেন?</a>
+                                            <a href="" class="pull-right" >নতুন অ্যাকাউন্ট</a>
+                                        </p>
                                     </div>
-                                </form>
-                                <label> Sign-Up</label>
+
+                                </div>
+                            </div>
+                            <div id="accordion">
+
+                                <div class="card-header bg-info left-current-user" id="headingOne"  data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                    <h5 class="text-center ">
+                                        অনলাইনে আছেন
+                                    </h5>
+                                </div>
+
+                                <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+                                    <div class="current-user-info">
+                                        <ul class="list-group total-info">
+                                            <li class="list-group-item"><span class="text-bold">৯৬</span> জন ব্লগার </li>
+                                            <li class="list-group-item"><span class="text-bold">১২০৫</span> জন ভিজিটর </li>
+                                            <li class="list-group-item"><span class="text-bold">১১৫০</span> জন মোবাইল থেকে </li>
+                                        </ul>
+
+                                        <ul class="list-group current-user">
+                                            <li class=""><i class="fas fa-circle"></i>Cras justo odio</li>
+                                            <li class=""><i class="fas fa-circle"></i>Dapibus ac facilisis in</li>
+                                            <li class=""><i class="fas fa-circle"></i>Morbi leo risus</li>
+                                        </ul>
+                                    </div>
+                                </div>
+
+
                             </div>
                         </div>
                     </div>
-                    <div class="card">
-                        <div class="card-header bg-warning " id="headingTwo">
-                            <h5 class="mb-0">
-                                <span class="text-center  collapsed" data-toggle="collapse" data-target="#collapseTwo"
-                                      aria-expanded="false" aria-controls="collapseTwo">
-                                    অনলাইনে আছেন
-                                </span>
-                            </h5>
-                        </div>
-                        <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
-                            <div>
-                                <ul class="list-group">
-                                    <li class="list-group-item">Cras justo odio</li>
-                                    <li class="list-group-item">Dapibus ac facilisis in</li>
-                                    <li class="list-group-item">Morbi leo risus</li>
-                                </ul>
-
-                                <ul class="list-group">
-                                    <li class="">Cras justo odio</li>
-                                    <li class="">Dapibus ac facilisis in</li>
-                                    <li class="">Morbi leo risus</li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-
                 </div>
             </div>
             <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
                 <div class="row">
-
-
                     <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
-                        <div class="card">
-                            <img class="card-img-top" src="img/download.svg" alt="Card image cap">
+                        <div class="card home-blog">
+                            <img class="card-img-top" src="img/post-sample-image.jpg" alt="Card image cap">
                             <div class="card-body">
-                                <h5 class="card-title">Card title</h5>
+                                <a href="#"><h5 class="card-title">Card title</h5></a>
                                 <p class="card-text">Some quick example text to build on the card title and make up the
                                     bulk of the card's content.</p>
-                                <a href="#" class="text-info  pull-right">Go somewhere</a>
+                                <a href="#" class="text-info pull-right blog-link">বাকিটুকু পড়ুন...</a>
                             </div>
                         </div>
                     </div>
                     <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
-                        <div class="card">
-                            <!--<img class="card-img-top" src="img/download.svg" alt="Card image cap">-->
+                        <div class="card home-blog">
+                            <img class="card-img-top" src="img/post-sample-image.jpg" alt="Card image cap">
                             <div class="card-body">
-                                <h5 class="card-title">Card title</h5>
+                                <a href="#"><h5 class="card-title">Card title</h5></a>
                                 <p class="card-text">Some quick example text to build on the card title and make up the
                                     bulk of the card's content.</p>
-                                <a href="#" class="text-info  pull-right">Go somewhere</a>
+                                <a href="#" class="text-info pull-right blog-link">বাকিটুকু পড়ুন...</a>
                             </div>
                         </div>
                     </div>
                     <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
-                        <div class="card">
-                            <img class="card-img-top" src="img/download.svg" alt="Card image cap">
+                        <div class="card home-blog">
+                            <img class="card-img-top" src="img/post-sample-image.jpg" alt="Card image cap">
                             <div class="card-body">
-                                <h5 class="card-title">Card title</h5>
+                                <a href="#"><h5 class="card-title">Card title</h5></a>
                                 <p class="card-text">Some quick example text to build on the card title and make up the
                                     bulk of the card's content.</p>
-                                <a href="#" class="btn btn-primary">Go somewhere</a>
+                                <a href="#" class="text-info pull-right blog-link">বাকিটুকু পড়ুন...</a>
                             </div>
                         </div>
                     </div>
                     <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
-                        <div class="card">
-                            <img class="card-img-top" src="img/download.svg" alt="Card image cap">
+                        <div class="card home-blog">
+                            <img class="card-img-top" src="img/post-sample-image.jpg" alt="Card image cap">
                             <div class="card-body">
-                                <h5 class="card-title">Card title</h5>
+                                <a href="#"><h5 class="card-title">Card title</h5></a>
                                 <p class="card-text">Some quick example text to build on the card title and make up the
                                     bulk of the card's content.</p>
-                                <a href="#" class="btn btn-primary">Go somewhere</a>
+                                <a href="#" class="text-info pull-right blog-link">বাকিটুকু পড়ুন...</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+                        <div class="card home-blog">
+                            <img class="card-img-top" src="img/post-sample-image.jpg" alt="Card image cap">
+                            <div class="card-body">
+                                <a href="#"><h5 class="card-title">Card title</h5></a>
+                                <p class="card-text">Some quick example text to build on the card title and make up the
+                                    bulk of the card's content.</p>
+                                <a href="#" class="text-info pull-right blog-link">বাকিটুকু পড়ুন...</a>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div class="row">
                     <div class="card mb-3">
-                        <img class="card-img-top" src="img/download.svg" alt="Card image cap" height="200">
+                        <img class="card-img-top" src="img/post-sample-image.jpg" alt="Card image cap" height="200">
                         <div class="card-body">
                             <h5 class="card-title">Card title</h5>
                             <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
@@ -346,7 +338,7 @@
                     </div>
 
                     <div class="card mb-3">
-                        <!--<img class="card-img-top" src="img/download.svg" alt="Card image cap" height="200">-->
+                        <!--<img class="card-img-top" src="img/post-sample-image.jpg" alt="Card image cap" height="200">-->
                         <div class="card-body">
                             <h5 class="card-title">Card title</h5>
                             <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
@@ -396,21 +388,21 @@
                             <li class="list-inline-item">
                                 <a href="#">
                                 <span class="fa-stack fa-lg">
-                                    <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+                                    <i class="fab fa-twitter fa-stack-1x fa-inverse"></i>
                                 </span>
                                 </a>
                             </li>
                             <li class="list-inline-item">
                                 <a href="#">
                                 <span class="fa-stack fa-lg">
-                                    <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
+                                    <i class="fab fa-facebook-f fa-stack-1x fa-inverse"></i>
                                 </span>
                                 </a>
                             </li>
                             <li class="list-inline-item">
                                 <a href="#">
                                 <span class="fa-stack fa-lg">
-                                    <i class="fa fa-instagram fa-stack-1x fa-inverse"></i>
+                                    <i class="fab fa-instagram fa-stack-1x fa-inverse"></i>
                                 </span>
                                 </a>
                             </li>
@@ -428,12 +420,12 @@
                 <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 right-border footer-magin">
                     <div class="thumbnail footer-menu">
                         <ul>
-                            <li><a href="#"><span class="glyphicon glyphicon-collapse-up"></span> প্রথম পাতা</a></li>
-                            <li><a href="#">প্রথম পাতা</a></li>
-                            <li><a href="#">প্রথম পাতা</a></li>
-                            <li><a href="#">প্রথম পাতা</a></li>
-                            <li><a href="#">প্রথম পাতা</a></li>
-                            <li><a href="#">প্রথম পাতা</a></li>
+                            <li><a href="#"><i class="fas fa-angle-double-right"></i> প্রথম পাতা</a></li>
+                            <li><a href="#"><i class="fas fa-angle-double-right"></i> প্রথম পাতা</a></li>
+                            <li><a href="#"><i class="fas fa-angle-double-right"></i> প্রথম পাতা</a></li>
+                            <li><a href="#"><i class="fas fa-angle-double-right"></i> প্রথম পাতা</a></li>
+                            <li><a href="#"><i class="fas fa-angle-double-right"></i> প্রথম পাতা</a></li>
+                            <li><a href="#"><i class="fas fa-angle-double-right"></i> প্রথম পাতা</a></li>
 
                         </ul>
                     </div>
