@@ -2,7 +2,20 @@
     font-size: 1rem;
     font-weight: bolder;
 }
-
+.add-right-sidebar{
+    width: 100%;
+    height:300px;
+    border: 1px solid #d6d8d9;
+    content: "Publish Your Advatich";
+    margin-bottom: 10px;
+}
+.add-mid-body{
+    width: 100%;
+    height:100px;
+    border: 1px solid #d6d8d9;
+    content: "Publish Your Advatich";
+    margin-bottom: 10px;
+}
 /*header Start*/
 .container-fluid {
     width: 100%;
@@ -16,34 +29,11 @@
     background: #097688;
     padding: 20px 0 10px 0;
 }
-.community{
-    margin: 0px -15px ;
+.logo img {
+    width: 100%;
+    height: auto;
 }
-.community label{
-    font-size: 14px;
-    color:#f78109;
-}
-.community .community-form{
-    background: #fff;
-}
-.community .community-form input[type="text"]{
-    width: 65%;
-    display: inline-block;
-    border-radius: 0;
 
-    border: none;
-}
-.community .community-form .comunity-btn{
-    width: 34%;
-    margin: 0 0 0 -4px;
-    font-size: 12px;
-    display: inline-block;
-    border-radius: 0px;
-    border-top: none;
-    border-right: none;
-    border-bottom: none;
-    border-left: 1px solid #097688;
-}
 .user-login{
     margin: 0px;
 }
@@ -70,7 +60,49 @@
     color: #fff;
     border: 0;
     width: 100%;
+    margin-top: 5px;
 }
+
+.login-btn:hover{
+    box-shadow: 0 4px 8px 2px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.social-login-group{
+    display: inline-block;
+    width: auto;
+    position: relative;
+    top: .3rem;
+    padding: 0;
+
+}
+.social-login-group ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.social-login-group ul li{
+    margin: 0 5px;
+    padding: 3px 6px;
+    float: left;
+    background-color: #02bfa5;
+    width: 30px;
+    height: 30px;
+    border-radius: 5px;
+}
+.social-login-group ul li a{
+    text-decoration: none;
+    text-align: center;
+}
+.social-login-group ul li a i{
+    font-size: 1rem;
+    color: #ffffff;
+}
+.social-login-group ul li:hover{
+    background-color: #7e52c5;
+    border-radius: 5px;
+    color: #ffffff;
+    box-shadow: 0 4px 8px 2px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
 .navBar{
     background: #f1f1f3;
 }
@@ -100,13 +132,7 @@
 .search-group .search-control label{
     display: inline-block;
 }
-.search-group .search-control label img{
-    display: inline-block;
-    margin: 0;
-    padding: 0;
-    width: 20px;
-    height: 20px;
-}
+
 
 .search-group .search-control input{
     display: none;
@@ -431,20 +457,20 @@
     width: auto;
     height: auto;
     padding: 7px 10px;
-    background: #079bb3ad;
+    background: #3fd4ec7a;
 }
 .blog-footer .publish-time{
     float: left;
 }
 .publish-time small{
-    color: #f34c0c;
+    color: #085f6d;
     font-size: .8rem;
 }
 .blog-footer .user-activity{
     float: right;
 }
 .user-activity a{
-    color: #f34c0c;
+    color: #085f6d;
     padding: 0px 7px;
     float: right;
 }
@@ -643,7 +669,7 @@
 }
 .single-post .post-image img{
     height: auto;
-    width: auto;
+    width: 100%;
     padding: 5px 5px;
     border: 1px solid #71dd8a;
 }
@@ -668,6 +694,10 @@
     padding: 5px 10px;
     color: #803bef;
 }
+
+/*body End*/
+
+/*comment area start*/
 .single-post .post-comment{
     margin: 0;
     padding: 20px 5px;
@@ -807,12 +837,110 @@
     font-size: .76rem;
     padding: 9px 7px;
 }
-/*body End*/
-
-/*comment area start*/
-
 /*comment area end*/
 /*singel blog post End*/
+
+
+/*bloger profile start*/
+.blogger-profile{
+    margin: 0;
+    padding: 15px 0;
+}
+.blogger-profile .profile-image{
+    margin: 0;
+    padding: 5px;
+    border: 1px solid #dddddd;
+    width: auto;
+}
+.profile-image img{
+    width: 100%;
+    height: auto;
+    max-height: 150px;
+}
+.blogger-profile .profile-info{
+    margin: 0;
+    padding: 15px 0px;
+}
+.profile-info .blogger-name{
+    margin: 0;
+    padding: 7px 5px;
+    display: block;
+
+}
+.profile-info .blogger-name h5{
+    font-size: 1.5rem;
+    padding: 0px 0px;
+    color: #06349c;
+    font-weight: 600;
+    display: inline-block;
+
+}
+.profile-info .blogger-name a{
+    padding: 7px 10px;
+    float: right;
+    border: 2px solid #797aba;
+    font-size: .9rem;
+    color: #797aba;
+    text-decoration: none;
+    display: inline-block;
+    position: relative;
+    top: -10px;
+}
+.profile-info .blogger-name a:hover{
+    background-color: #797aba;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    color: #ffffff;
+}
+
+.profile-info .blogger-moto{
+    margin: 0;
+    padding: 5px 5px;
+    font-size: 1.1rem;
+    color: #016a7b;
+    font-weight: 500;
+}
+.profile-info .blogger-moto i{
+    margin: 0;
+    font-size: .7rem;
+    position: relative;
+    top: -9px;
+    color: #6610f2;
+}
+.profile-info .join-date{
+    font-size: .8rem;
+    margin: 0;
+    padding: 0;
+    color: #636262;
+}
+.profile-share{
+    background: #7e80ef3b;
+    padding: 15px;
+    margin: 15px 0;
+}
+.blogger-summary .summary-group{
+    margin: 0;
+    padding: 15px 7px;
+}
+.summary-group ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.summary-group ul li{
+    margin: 0;
+    padding: 5px;
+    font-size: .85rem;
+    color: #4a4a4a;
+    font-weight: 400;
+}
+.summary-group ul li span{
+    margin: 0;
+    padding: 5px;
+    font-size: .9rem;
+    color: #000000;
+    font-weight: 600;
+}
+/*bloger profile end*/
 
 
 /*footer Start*/
@@ -1010,3 +1138,490 @@
     background: #333131;
 }
 /*footer End*/
+
+
+
+
+
+
+
+
+
+
+
+/*// Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+    .logo img{
+        width: 100%;
+        height: auto;
+    }
+}
+
+/*// Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    /*header*/
+    .header{
+        padding: 15px;
+    }
+    .logo img{
+        width: 100%;
+        height: auto;
+    }
+    .login-group .social-login-group{
+        padding: 0;
+    }
+    .social-login-group ul li{
+        margin: 0 3px;
+        border-radius: 3px;
+    }
+    .user-login .login-group {
+        margin-bottom: 5px;
+        padding: 0;
+        border-radius: 15px;
+    }
+    .user-login .login-group button {
+        border-radius: 3px;
+    }
+    .login-info a{
+        font-size: .65rem;
+    }
+    .menu ul li {
+        padding-right: 5px;
+    }
+    .menu ul li a{
+        font-size: .95rem;
+    }
+    .search-bar {
+        width: 29%;
+    }
+    .search-bar .search-field{
+        width: 66%;
+    }
+    .search-bar .search-btn{
+        width: 11.87%;
+    }
+    /*header end*/
+
+    /*left side bar*/
+    .banner img{
+        width: 100%;
+        height: auto;
+    }
+    .sidebar-login{
+        margin: 8px 0;
+    }
+    .sidebar-login .card-body{
+        padding: 10px;
+    }
+    .sidebar-login-form .col-auto{
+        width: 100%;
+    }
+    .sidebar-login-help p{
+        margin-bottom: 3px;
+    }
+    .sidebar-login-help p a{
+        font-size: .657rem;
+    }
+    .sidebar-login .social-login-group ul{
+        padding: 0px 8px;
+    }
+    .sidebar-login .social-login-group ul li{
+        margin: 0 12px;
+    }
+
+    /*left sidebar end*/
+
+    /*right Side bar*/
+    .popular-post ul li a img{
+        min-height: 55px;
+    }
+    .popular-post ul li a p {
+        font-size: .8rem;
+        line-height: .95rem;
+    }
+    .this-week-post ul li a img{
+        min-height: 55px;
+    }
+    .this-week-post ul li a p{
+        font-size: .8rem;
+        line-height: .95rem;
+    }
+    /*right sidebar end*/
+
+    /*footer*/
+    .subscribe-panel .subscribe{
+        height: 45px;
+    }
+    .subscribe-panel .subscribe .subscribe-control{
+        height: 43px;
+        border-top-left-radius: 5px;
+        border-bottom-left-radius: 5px;
+    }
+    .subscribe-panel .subscribe .subscribe-btn{
+        height: 45px;
+        width: 29%;
+    }
+    .footer-top .pages {
+        padding: 65px 15px 30px 15px;
+
+    }
+    .pages ul li:hover{
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+    .footer-blog a img{
+        min-height: 70px;
+    }
+    .footer-blog a p{
+        max-width: 73%;
+        font-size: 14px;
+    }
+    .footer-about p {
+        padding: 7px 8px;
+        font-size: .9rem;
+        margin-bottom: 5px;
+    }
+    .footer-address ul li {
+        margin: 0;
+        padding: 0px 0px;
+    }
+    .footer-address ul li p {
+        font-size: 12px;
+    }
+    /*footer end*/
+
+
+    /*singel-blog start*/
+    .single-post .post-image img {
+        width: 100%;
+    }
+    .single-post .post-content {
+        font-size: .8rem;
+        line-height: 1.2rem;
+    }
+    .comment-list .thumbnail img {
+        width: 65px;
+        height: 70px;
+    }
+    .author-block .author-heading h5{
+        font-size: .9rem;
+    }
+    .author-content .author-image img {
+        min-height: 70px;
+    }
+    .author-content .author-name h5 {
+        font-size: .9rem;
+        padding: 10px 10px;
+    }
+    .author-content .author-name a {
+        padding: 4px 5px;
+        font-size: .75rem;
+    }
+    .author-block .author-info{
+        padding: 15px 8px;
+    }
+    .author-info p {
+        font-size: .7rem;
+    }
+    /*singel blog end*/
+}
+
+
+/*// Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+    /*header start*/
+    .user-login {
+        margin: 0px 20px;
+    }
+    .navBar .container{
+        width: 100%;
+        padding-right: 0;
+        padding-left: 0;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .navBar .container .navbar{
+        width: 100%;
+        padding-right: 0;
+        padding-left: 0;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .menu ul li {
+        padding: 5px 6px;
+    }
+    .menu ul li a{
+        padding-left: 0px!important;
+        padding-right: 0px!important;
+        font-size: .8rem;
+    }
+    .search-bar{
+        width: 33%;
+    }
+    .search-bar .search-field{
+        width: 61%;
+    }
+    .search-bar .search-btn{
+        width: 13.79%;
+    }
+    /*header end*/
+
+    /*left sidebar*/
+    .side-menu a {
+        padding: 10px 5px;
+        font-size: .9rem;
+    }
+    .sidebar-login h5{
+        font-size: 1rem;
+    }
+    .left-sidebar .card-body{
+        padding: 10px 5px;
+    }
+    .sidebar-login-form input {
+        font-size: .65rem;
+    }
+    .sidebar-login-form .form-check .form-check-label {
+        font-size: .8rem;
+        position: relative;
+        top: -2px;
+    }
+    .sidebar-login-form .col-auto {
+        width: 100%;
+    }
+    .sidebar-login-form .social-login-group{
+        padding: 0 9px;
+    }
+    .sidebar-login-help p a{
+        float: left;
+    }
+    .sidebar-login-help p{
+        padding-bottom: 7px;
+    }
+    #accordion .card-header{
+        padding: 10px 5px;
+    }
+    #accordion h5{
+        font-size: .9rem;
+    }
+    .total-info li{
+        padding: 10px 5px;
+        font-size: .65rem;
+    }
+    .total-info li span{
+        font-size: .8rem;
+    }
+    .current-user li {
+        font-size: .7rem;
+    }
+    .current-user li i{
+        font-size: .45rem;
+    }
+    /*left sidebar end*/
+
+    /*right side bar start*/
+    .popular-post .popular-post-heading{
+        padding: 10px 7px;
+    }
+    .popular-post .popular-post-heading h5 {
+        font-size: .9rem;
+    }
+    .popular-post ul li,.this-week-post ul li {
+        padding: 3px 3px;
+    }
+    .popular-post ul li a img , .this-week-post ul li a img{
+        min-height: 55px;
+    }
+    .popular-post ul li a p{
+        line-height: .9rem;
+        font-size: .7rem;
+    }
+    .popular-post ul li a p label, .this-week-post ul li a p label{
+        font-size: .6rem;
+        top: .1rem;
+    }
+    .this-week-post-heading h5 {
+        font-size: .8rem;
+    }
+    .this-week-post ul li a p{
+        line-height: .9rem;
+        font-size: .7rem;
+    }
+        /*right sidebar end*/
+    /*footer start*/
+    .subscribe-panel .subscribe{
+        height: 45px;
+    }
+    .subscribe-panel .subscribe .subscribe-control{
+        height: 40px;
+        border-top-left-radius: 5px;
+    }
+    .subscribe-panel .subscribe .subscribe-btn {
+        width: 28.7%;
+        height: 45px;
+        font-size: 1.2rem;
+        font-weight: 600;
+        color: #ffffff;
+    }
+    .footer-top .pages {
+        padding: 65px 15px 30px 15px;
+    }
+    .footer-blog a img {
+        min-height: 60px;
+    }
+    .footer-blog a p {
+        width: 73%;
+        font-size: 11px;
+    }
+    .footer-blog a p label{
+        font-size: 10px;
+    }
+    .footer-about h4 {
+        font-size: 1.2rem;
+    }
+    .footer-about p{
+        font-size: .8rem;
+        line-height: 1rem;
+    }
+    .footer-address ul li {
+        margin: 0;
+        padding: 0;
+    }
+    .footer-address ul li p {
+        font-size: 12px;
+    }
+    .footer-address ul li p span {
+        font-size: 11px;
+    }
+    /*footer end*/
+
+    /*index start*/
+    .home-blog .blog-writer{
+        font-size: .8rem;
+    }
+    .home-blog p {
+        font-size: .75rem;
+    }
+    .home-blog .blog-link {
+        font-size: .65rem;
+    }
+    .blog-footer .publish-time {
+        float: left;
+        padding: 10px 5px;
+    }
+    .blog-footer .user-activity {
+        float: right;
+        padding: 10px 5px;
+    }
+    .user-activity a {
+        padding: 0px 5px;
+        font-size: .8rem;
+    }
+    /*index end*/
+
+    /*singel blog page Start*/
+    .author-block .author-heading{
+        padding: 10px 3px;
+    }
+    .author-block .author-heading h5 {
+        font-size: .8rem;
+        font-weight: 400;
+    }
+    .author-content .author-name h5 {
+        font-size: .7rem;
+        padding: 10px 5px;
+    }
+    .author-content .author-name a {
+        padding: 7px 5px;
+        font-size: .6rem;
+    }
+    .author-content .author-image img {
+        min-height: 55px;
+    }
+    .author-block .author-info {
+        padding: 15px 7px;
+    }
+    .author-info p {
+        font-size: .65rem;
+    }
+    .single-post .post-content {
+        font-size: .8rem;
+        line-height: 1.1rem;
+    }
+    .comment-list .thumbnail img {
+        width: 60px;
+        height: 65px;
+        border-radius: 5px;
+    }
+    .comment-list .row .col-md-2{
+        padding-right: 5px;
+        padding-left: 5px;
+    }
+    .comment-list .panel.arrow.left:before {
+        left: 9px;
+        top: 33px;
+        border-right-color: inherit;
+        border-width: 10px;
+    }
+    .comment-list .panel.arrow.left:after {
+        left: 10px;
+        top: 32px;
+        border-right-color: #FFFFFF;
+        border-width: 11px;
+    }
+    .comment-list .panel.arrow.right:before {
+        right: 0px;
+        top: 24px;
+        border-left-color: inherit;
+        border-width: 10px;
+    }
+    .comment-list .panel.arrow.right:after {
+        right: 1px;
+        top: 24px;
+        border-left-color: #FFFFFF;
+        border-width: 11px;
+    }
+    .comment-list .comment-body .comment-post p , .comment-list .panel .comment-body p{
+        margin-bottom: 5px;
+    }
+    /*singel blog page End*/
+
+    /*profile start*/
+    .profile-info .blogger-name h5 {
+        font-size: 1rem;
+    }
+    .profile-info .blogger-name a{
+        padding: 7px 5px;
+        font-size: .7rem;
+    }
+    .profile-info .blogger-moto{
+        font-size: .8rem;
+    }
+    .profile-info .blogger-moto i{
+        font-size: .5rem;
+    }
+    .profile-info .join-date {
+        font-size: .6rem;
+    }
+    .summary-group ul li{
+        font-size: .7rem;
+    }
+    .summary-group ul li span{
+        font-size: .7rem;
+    }
+    /*profile end*/
+}
+
+
+/*// Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+}
+
+/*// Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+
+}
+
+
+
+
+
