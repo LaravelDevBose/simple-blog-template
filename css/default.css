@@ -116,13 +116,19 @@
 .menu ul li{
     padding-right: 30px;
 }
-.search-bar{
+.search-bar {
     border: 1px solid #0890a7;
     width: 25%;
+    display: inline-block;
+    float: right;
+    position: absolute;
+    top: 5px;
+    right: 0%;
 }
 .search-group{
     width: 55px;
     border-right: 1px solid #0890a7;
+    display: inline-block;
 
 }
 .search-group .search-control{
@@ -141,18 +147,17 @@
     border: none;
     background-color: #f1f1f3;
     border-radius: 0;
-    width: 66.4485%;
-    padding:6px 5px 6px 8px;
+    width: 66%;
+    padding: 6px 5px 3px 5px;
 
     font-size: 12px;
 }
-
-.search-bar .search-btn{
-    background:  #0bb2ce;
+.search-bar .search-btn {
+    background: #0bb2ce;
     color: #ffffff;
     border: none;
     border-radius: 0;
-    width: 13%;
+    width: 11.4785%;
     height: 30px;
 }
 
@@ -1195,7 +1200,7 @@
         width: 29%;
     }
     .search-bar .search-field{
-        width: 66%;
+        width: 65%;
     }
     .search-bar .search-btn{
         width: 11.87%;
@@ -1358,7 +1363,7 @@
         width: 33%;
     }
     .search-bar .search-field{
-        width: 61%;
+        width: 60%;
     }
     .search-bar .search-btn{
         width: 13.79%;
@@ -1613,8 +1618,110 @@
 
 /*// Small devices (landscape phones, 576px and up)*/
 @media (min-width: 576px) and (max-width: 767.98px) {
+    /*header start*/
+    .social-login-group {
+        top: 2rem;
+    }
+    .user-login .login-btn {
+        position: relative;
+        top: -46px;
+    }
+    .login-info {
+        position: relative;
+        top: -.7rem;
+    }
+    .search-bar{
+        width: 53%;
+        top: .7rem;
+        right: 2%;
+    }
+    .menu ul {
+        padding: 10px 0;
+    }
 
+    /*header end*/
+
+    /*side bar start*/
+    .sidebar-login-form .col-auto {
+        width: 80%;
+    }
+    .sidebar-login .social-login-group {
+        top: 0rem;
+    }
+    .sidebar-login-help{
+        float: right;
+        top: .5rem;
+    }
+    #accordion {
+        margin-bottom: 30px;
+    }
+    .popular-post ul , .this-week-post ul{
+        list-style: none;
+        margin: 0;
+        padding: 10px 95px;
+    }
+    /*side bar end*/
+
+    /*footer start*/
+    .subscribe-panel .subscribe .subscribe-control {
+        width: 69%;
+    }
+    .subscribe-panel .subscribe .subscribe-btn {
+        width: 30%;
+        color: #fff;
+    }
+    .footer-top .pages {
+        padding: 35px 15px 15px 15px;
+    }
+
+    .footer .footer-menu {
+        padding: 15px 15px;
+    }
+    .footer .footer-magin {
+        margin: 0px 0;
+    }
+    .footer-top-blog .footer-blog {
+        padding-left: 0px;
+    }
+    .footer-blog a img {
+        min-height: 60px;
+        position: relative;
+        top: -.6rem;
+    }
+    .footer-blog a p {
+        font-size: 11px;
+        max-width: 72%;
+        padding-left: 0px;
+    }
+    .footer-blog a p label {
+        font-size: .6rem;
+        top: 0;
+        right: 0;
+    }
+    .footer-about h4 {
+        font-size: 1rem;
+    }
+    .footer-about p {
+        padding: 7px 0px;
+        font-size: .8rem;
+    }
+    .footer-address ul li {
+        padding: 0;
+    }
+    .footer-address ul li p {
+        font-size: .8rem;
+    }
+
+    /*footer End*/
+
+    /*profile start*/
+    .author-block .author-content,.author-block .author-info {
+        padding: 20px 80px 5px 80px;
+    }
+    /*profile end*/
 }
+
+
 
 /*// Extra small devices (portrait phones, less than 576px)*/
 @media (max-width: 575.98px) {
