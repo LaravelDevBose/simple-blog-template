@@ -1660,6 +1660,15 @@
         margin: 0;
         padding: 10px 95px;
     }
+    .sidebar-right-border{
+        border-right: none;
+    }
+    .sidebar-left-border{
+        border-left: none;
+    }
+    .add-right-sidebar {
+        height: 110px;
+    }
     /*side bar end*/
 
     /*footer start*/
@@ -1719,13 +1728,390 @@
         padding: 20px 80px 5px 80px;
     }
     /*profile end*/
+    /*body*/
+    #content .home-blog {
+        margin: 15px 20px 15px 20px;
+    }
+}
+
+@media (min-width: 426px) and (max-width: 575.98px) {
+    /*header start*/
+    .user-login {
+        margin: 0px;
+        padding: 20px 30px;
+    }
+    .user-login .login-btn {
+        width: 50%;
+        margin-top: -35px;
+        float: right;
+    }
+    .user-login .social-login-group ul li {
+        margin: 0 8px;
+    }
+    .search-bar {
+        width: 65%;
+        top: 7px;
+        right: 4%;
+    }
+    .search-bar .search-field{
+        width: 62%;
+    }
+    .search-group {
+        height: 34px;
+    }
+    .search-group .search-control {
+        margin-top: 3px;
+    }
+    .search-bar .search-btn {
+        width: 13.8%;
+        height: 34px;
+    }
+    /*header end*/
+    /*side bar*/
+    .side-menu a {
+        border: none;
+        background-color: #f7f7f79c;
+        font-size: .8rem;
+    }
+    .side-menu a i {
+        font-size: 1rem;
+    }
+    .sidebar-login .card-body{
+        padding: 0 3rem;
+    }
+    .sidebar-login-form button {
+        width: 200%;
+    }
+    .sidebar-login-help{
+        width: 50%;
+        display: inline-block;
+        padding: 0;
+    }
+    .sidebar-login-help p{
+        display: inline-block;
+        margin-bottom: 0;
+        padding: 2px 0px 0 20px;
+        position: relative;
+        top: 7px;
+    }
+    .sidebar-login-help p a {
+        font-size: .6rem;
+        float: left;
+        padding: 1px;
+    }
+    .current-user li {
+        font-size: .78rem;
+    }
+    .current-user li i {
+        padding-right: 5px;
+        font-size: .5rem;
+        position: relative;
+        top: -1px;
+    }
+    .add-mid-body {
+        width: 100%;
+        height: 80px;
+    }
+    /*side bar end*/
+
+    /*body Content*/
+    .page-title h5 {
+        font-size: 1rem;
+    }
+    .home-blog a h5 {
+        font-size: 1.1rem;
+    }
+    .home-blog .blog-writer {
+        font-size: .7rem;
+    }
+    .home-blog p {
+        font-size: .8rem;
+    }
+    .publish-time small {
+        font-size: .7rem;
+    }
+    .blog-footer .user-activity {
+        width: 50%;
+        display: inline-block;
+    }
+    .blog-footer .publish-time {
+        width: 50%;
+        display: inline-block;
+    }
+    .user-activity a {
+        float: left;
+        font-size: .8rem;
+    }
+
+    .sidebar-left-border {
+        border-left: none;
+    }
+    .sidebar-right-border {
+        border-right: none;
+    }
+    .single-post .post-content {
+        font-size: .75rem;
+        line-height: 1.2rem;
+    }
+    .comment-list .col-md-2.col-sm-2{
+        width: 25%;
+        padding-left: 15px;
+        padding-right: 5px;
+    }
+    .comment-list .thumbnail{
+        width: 100%;
+    }
+    .comment-list .thumbnail img{
+        width: 100%;
+    }
+    .comment-list .col-md-10.col-sm-10{
+        width: 75%;
+        padding-left: 5px;
+    }
+    .comment-list .panel.arrow.left:before {
+        left: -3px;
+    }
+    .comment-list .panel.arrow.left:after {
+        left: 0px;
+    }
+
+    .blogger-profile .col-sm-4{
+        display: inline-block;
+        width: 25%;
+        padding-right: 0px;
+    }
+    .blogger-profile .col-sm-8{
+        display: inline-block;
+        width: 75%;
+    }
+    .blogger-profile .profile-info {
+        margin: 0;
+        padding: 0px 0px;
+    }
+    .profile-info .blogger-name h5 {
+        font-size: 1rem;
+    }
+    .profile-info .blogger-name a {
+        padding: 7px 6px;
+        font-size: .7rem;
+    }
+    .profile-info .blogger-moto {
+        font-size: .7rem;
+    }
+    .profile-info .blogger-moto i {
+        font-size: .4rem;
+    }
+    .profile-info .join-date {
+        font-size: .6rem;
+    }
+    /*body Content end*/
+
+    /*right side bar*/
+    .add-right-sidebar {
+        height: 120px;
+    }
+    .popular-post ul li , .this-week-post ul li{
+        padding: 5px 3px;
+        height: 75px
+    }
+    .popular-post ul li a p,.this-week-post ul li a p{
+        line-height: 1rem;
+        font-size: .9rem;
+    }
+    .author-block .author-content {
+        padding: 15px 15px 5px 15px;
+    }
+    .author-block .author-info {
+        padding: 15px 15px;
+    }
+    /*right side bar end*/
+
+    /*footer start*/
+    .subscribe-panel {
+        padding: 10px 5px;
+    }
+
+    .subscribe-panel .subscribe .subscribe-control {
+        width: 69%;
+        height: 46px;
+        font-size: 22px;
+        padding: 3px 10px;
+        border-bottom-left-radius: 5px;
+    }
+    .subscribe-panel .subscribe .subscribe-btn {
+        width: 29.7%;
+        font-size: 20px;
+        padding: 13px 5px;
+    }
+    .footer-top .pages {
+        padding: 24px 15px 0px 15px;
+    }
+
+    .footer .footer-menu {
+        padding: 5px 30px;
+        margin: 0px 0;
+        min-height: 220px;
+    }
+    .copyright {
+        background: #333131;
+        font-size: .8rem;
+    }
+    /*footer end*/
 }
 
 
-
 /*// Extra small devices (portrait phones, less than 576px)*/
-@media (max-width: 575.98px) {
+@media (min-width: 376px) and (max-width: 425.98px) {
 
+    /*header start*/
+    .user-login {
+        margin: 0px;
+        padding: 20px 0px;
+    }
+    #navBar .navbar{
+        padding: 15px 0px !important;
+    }
+
+    .user-login .login-btn {
+        width: 50%;
+        display: inline-block;
+        float: right;
+        margin-top: -35px;
+    }
+
+    .search-group {
+        height: 34px;
+    }
+    .search-group .search-control {
+        margin-top: 3px;
+    }
+    .search-bar .search-field {
+        width: 61%;
+    }
+    .search-bar .search-btn {
+        width: 14.78%;
+        height: 34px;
+    }
+    .navbar-nav .nav-item a {
+        padding-right: 5px;
+        padding-left: 5px;
+        font-size: .8rem;
+    }
+    .search-bar {
+        width: 65%;
+        right: 5%;
+    }
+    /*header end*/
+
+    /*side bar menu start*/
+    .side-menu a {
+        font-size: .8rem;
+    }
+    .side-menu a i {
+        font-size: 1rem;
+    }
+    .sidebar-login .card-body{
+        padding: 20px 30px;
+        width: 80%;
+        margin: 0 auto;
+    }
+    .sidebar-login-help {
+        width: 48%;
+        display: inline-block;
+        padding: 0;
+    }
+    .sidebar-login-help p {
+         display: inline-block;
+         margin-bottom: 0;
+         padding: 2px 0px 0 0px;
+         position: relative;
+         top: 7px;
+     }
+    .sidebar-login-help p a {
+        float: left;
+    }
+
+    .left-current-user h5 {
+        font-size: 1rem;
+    }
+    .current-user li {
+        font-size: .78rem;
+    }
+    .current-user li i {
+        padding-right: 5px;
+        font-size: .5rem;
+        position: relative;
+        top: -1px;
+    }
+    .sidebar-right-border {
+        border-right: none;
+    }
+    .sidebar-left-border {
+        border-left: none;
+    }
+    .add-right-sidebar {
+        height: 115px;
+    }
+    .popular-post ul li,.this-week-post ul li {
+        margin: 0;
+        padding: 5px 3px;
+        height: 75px;
+    }
+    /*side bar menu end*/
+
+    /*body start*/
+    .page-title h5 {
+        font-size: 1rem;
+    }
+    .home-blog a h5 {
+        font-size: 1rem;
+    }
+    .home-blog .blog-writer {
+        font-size: .7rem;
+    }
+    .home-blog p {
+        font-size: .8rem;
+    }
+    .blog-footer .publish-time {
+        display: inline-block;
+        width: auto;
+    }
+    .blog-footer .user-activity {
+        float: right;
+        display: inline-block;
+        width: auto;
+    }
+    .user-activity a {
+        color: #085f6d;
+        padding: 4px 7px;
+        float: right;
+        display: inline-block;
+        font-size: .8rem;
+    }
+    /*body end*/
+
+    /*footer start*/
+    .subscribe-panel {
+        padding: 10px 0px;
+    }
+    .subscribe-panel .subscribe .subscribe-control {
+        width: 69%;
+    }
+    .subscribe-panel .subscribe {
+        overflow: hidden;
+    }
+    .subscribe-panel .subscribe .subscribe-btn {
+        width: 29.7%;
+        height: 54px;
+        overflow-y: hidden;
+        display: inline-block;
+        font-size: 20px;
+    }
+
+    .footer-top .pages {
+        padding: 35px 15px 10px 15px;
+    }
+    /*foter end*/
 }
 
 
